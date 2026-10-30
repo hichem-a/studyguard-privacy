@@ -3,642 +3,94 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>StudyGuard Privacy Policy</title>
-
-  <meta
-    name="description"
-    content="Privacy Policy and Datenschutzerklärung for StudyGuard."
-  >
-
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="StudyGuard privacy information in English and German: local planning data, external services and the planned advertising update.">
+  <title>Privacy &amp; your data · StudyGuard</title>
   <style>
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 32px 20px;
-      line-height: 1.65;
-      background: #f5f7f6;
-      color: #17312d;
-    }
-
-    section {
-      background: white;
-      border: 1px solid #dce6e2;
-      border-radius: 18px;
-      padding: 28px;
-      margin: 20px 0;
-    }
-
-    h1, h2, h3 {
-      line-height: 1.25;
-    }
-
-    h1 {
-      font-size: 2.4rem;
-      margin-bottom: 8px;
-    }
-
-    h2 {
-      margin-top: 0;
-    }
-
-    a {
-      color: #0d6b5f;
-    }
-
-    .summary {
-      border-left: 4px solid #0d6b5f;
-      padding-left: 16px;
-      margin: 24px 0;
-    }
-
-    .muted {
-      color: #61716d;
-    }
-
-    @media (prefers-color-scheme: dark) {
-      body {
-        background: #0d1715;
-        color: #eef8f5;
-      }
-
-      section {
-        background: #12211e;
-        border-color: #29423c;
-      }
-
-      a {
-        color: #84d8c7;
-      }
-
-      .muted {
-        color: #aebfba;
-      }
-    }
+    :root{color-scheme:light dark;--bg:#f6f7f2;--paper:#fff;--ink:#173b36;--muted:#536862;--line:#dce4dd;--accent:#176356;--soft:#eaf1e9;--lime:#d9ed96;--notice:#fff5dc;--notice-ink:#674a18;--radius:22px}
+    *{box-sizing:border-box}html{scroll-padding-top:110px}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+    a{color:var(--accent);text-underline-offset:4px;overflow-wrap:anywhere}a:hover{text-decoration-thickness:2px}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:5px;border-radius:4px}
+    [hidden]{display:none!important}.wrap{width:min(1140px,calc(100% - 64px));margin-inline:auto}.skip{position:absolute;left:16px;top:-100px;z-index:20;background:var(--paper);padding:12px 20px}.skip:focus{top:12px}
+    .topbar{border-bottom:1px solid var(--line);background:var(--bg)}.topbar .wrap{min-height:88px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);font-size:21px;font-weight:750;letter-spacing:-.7px}.mark{width:37px;height:42px;display:grid;place-items:center;background:var(--ink);color:var(--lime);border-radius:12px 12px 17px 17px;font-size:22px}
+    .languages{display:flex;align-items:center;gap:5px;padding:5px;border:1px solid var(--line);border-radius:999px}.languages a{padding:7px 17px;text-decoration:none;font-size:13px;font-weight:650;border-radius:999px}.languages a[aria-current=true]{background:var(--ink);color:var(--paper)}
+    .hero{padding:70px 0 40px;max-width:870px}.eyebrow{font-size:12px;font-weight:750;letter-spacing:2px;text-transform:uppercase;color:var(--accent);display:flex;align-items:center;gap:10px}.eyebrow:before{content:"";width:24px;height:2px;background:var(--accent)}
+    h1{font-size:clamp(42px,6.3vw,74px);line-height:1.06;letter-spacing:-3px;font-weight:650;margin:24px 0}h1 span{color:var(--accent)}.intro{font-size:19px;line-height:1.7;max-width:670px;color:var(--muted)}.meta{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:22px;color:var(--muted);font-size:13px}.pill{background:var(--soft);color:var(--accent);padding:4px 11px;border-radius:999px;font-weight:650}
+    .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:0 0 28px}.fact{background:var(--paper);border:1px solid var(--line);padding:24px;border-radius:var(--radius)}.fact .number{font-size:12px;color:var(--accent);font-weight:700}.fact h2{font-size:17px;letter-spacing:-.3px;margin:10px 0 6px}.fact p{font-size:14px;color:var(--muted);margin:0}
+    .notice{background:var(--notice);color:var(--notice-ink);border-radius:16px;padding:20px 24px;margin-bottom:44px;font-size:14px}.notice strong{display:block;margin-bottom:3px}.notice p{margin:0}.notice a{color:inherit}
+    .layout{display:grid;grid-template-columns:235px minmax(0,1fr);gap:56px;align-items:start;margin-bottom:60px}.contents{position:sticky;top:28px}.contents h2{font-size:11px;letter-spacing:1.8px;text-transform:uppercase;color:var(--muted);margin:0 0 18px}.contents a{display:flex;gap:12px;padding:8px 0;text-decoration:none;font-size:13px;color:var(--muted)}.contents a span{font-size:11px;color:var(--accent);min-width:20px}.contents a:hover{color:var(--accent)}.contents .contact{border-top:1px solid var(--line);margin-top:22px;padding-top:18px;font-size:12px;color:var(--muted)}
+    .policy{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:10px 38px 26px;min-width:0}.article{padding:28px 0;border-bottom:1px solid var(--line);scroll-margin-top:25px}.article:last-child{border-bottom:0}.article h2{font-size:23px;line-height:1.35;letter-spacing:-.6px;margin:0 0 15px;display:flex;gap:13px;align-items:baseline}.article h2 .n{font-size:12px;letter-spacing:0;color:var(--accent);flex-shrink:0}.article h3{font-size:16px;margin:24px 0 8px}.article p{margin:0 0 14px}.article p:last-child{margin-bottom:0}.article ul{padding-left:22px;margin:10px 0 18px}.article li{padding-left:4px;margin-bottom:6px}.article address{font-style:normal}.small{font-size:13px;color:var(--muted)}code{font:13px/1.6 ui-monospace,Consolas,monospace;background:var(--soft);padding:3px 6px;border-radius:5px;overflow-wrap:anywhere}.inset{border-left:3px solid var(--accent);padding:14px 18px;background:var(--soft);border-radius:0 10px 10px 0;margin:20px 0}.inset p{font-size:14px}details{border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-top:20px}summary{cursor:pointer;font-weight:650;font-size:14px}details ul{font-size:14px}.source{font-size:13px}.footer{border-top:1px solid var(--line);padding:26px 0 38px}.footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:12px;color:var(--muted)}.footer a{color:inherit}
+    @media(max-width:850px){.layout{grid-template-columns:1fr;gap:25px}.contents{position:static}.contents nav{display:flex;gap:5px 18px;flex-wrap:wrap}.contents a{padding:5px 0}.contents .contact{display:none}.hero{padding-top:48px}.policy{padding-inline:28px}}
+    @media(max-width:540px){.wrap{width:calc(100% - 32px)}.topbar .wrap{min-height:76px;gap:10px}.brand{font-size:19px}.languages a{padding:6px 11px}.hero{padding:35px 0 25px}h1{letter-spacing:-1.7px;font-size:46px}.intro{font-size:17px}.facts{grid-template-columns:1fr;gap:10px}.fact{padding:17px 20px}.fact h2{margin:4px 0}.fact .number{float:right}.notice{padding:18px;margin-bottom:30px}.policy{padding:0 21px 14px}.article h2{font-size:21px}.article{padding:25px 0}.contents nav{gap:2px 16px}.contents a{font-size:12px}body{font-size:15px}}
+    @media(prefers-color-scheme:dark){:root{--bg:#111d1a;--paper:#182823;--ink:#edf4e8;--muted:#b3c3ba;--line:#34483e;--accent:#a9d8ba;--soft:#22392e;--notice:#352e1d;--notice-ink:#efdaa1}.mark{background:#d9ed96;color:#173b36}.languages a[aria-current=true]{color:#14251d;background:#d9ed96}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    @media print{body{background:#fff;color:#000;font-size:11pt}.topbar,.contents,.facts,.footer,.languages,.skip{display:none}.wrap{width:100%}.hero{padding:0}.layout{display:block}.policy{border:0;padding:0}.notice{border:1px solid #999;background:none;color:#000}.article{break-inside:avoid}h1{font-size:32pt}.intro{font-size:12pt}.language-panel[hidden]{display:none!important}a{color:#000}}
   </style>
 </head>
-
 <body>
-
-  <h1>StudyGuard Privacy Policy</h1>
-
-  <p class="muted">
-    Last updated / Zuletzt aktualisiert: 9 September 2026
-  </p>
-
-  <div class="summary">
-    <strong>Privacy first.</strong><br>
-    StudyGuard is designed as a local-first Android application.
-    The Google Play version does not require an account,
-    does not contain advertising, and does not use analytics
-    or developer-operated tracking.
-  </div>
-
-
-  <!-- ENGLISH -->
-
-  <section lang="en">
-
-    <h2>English</h2>
-
-    <h3>1. Developer and privacy contact</h3>
-
-    <p>
-      StudyGuard is provided by:
-    </p>
-
-    <p>
-      <strong>Hichem Abdenadher</strong><br>
-      App: StudyGuard<br>
-      Package: de.studyguard.app<br>
-      Email:
-      <a href="mailto:hichemabdennadher5@gmail.com">
-        hichemabdennadher5@gmail.com
-      </a>
-    </p>
-
-
-    <h3>2. What is StudyGuard?</h3>
-
-    <p>
-      StudyGuard is an Android application primarily designed
-      for international students in Germany.
-    </p>
-
-    <p>
-      The app helps users organize areas such as studies,
-      tasks, deadlines, exams, work planning, housing,
-      budgeting, career planning, reminders and other
-      student-life responsibilities.
-    </p>
-
-
-    <h3>3. Information stored inside the app</h3>
-
-    <p>
-      Depending on how you use StudyGuard, you may enter
-      information such as:
-    </p>
-
-    <ul>
-      <li>tasks and personal notes,</li>
-      <li>deadlines and dates,</li>
-      <li>module and exam information,</li>
-      <li>study planning information,</li>
-      <li>work-planning information,</li>
-      <li>housing checklist information,</li>
-      <li>budget and financial planning values,</li>
-      <li>career planning information,</li>
-      <li>app preferences,</li>
-      <li>reminder settings.</li>
-    </ul>
-
-    <p>
-      This information is stored locally on your Android device
-      for the purpose of providing StudyGuard's functionality.
-    </p>
-
-    <p>
-      StudyGuard does not operate a developer cloud backend
-      that receives this app content.
-    </p>
-
-
-    <h3>4. Accounts</h3>
-
-    <p>
-      StudyGuard does not require a user account or login.
-    </p>
-
-    <p>
-      Therefore, StudyGuard does not maintain a remote
-      StudyGuard user profile or account database.
-    </p>
-
-
-    <h3>5. Advertising</h3>
-
-    <p>
-      The Google Play version of StudyGuard does not contain
-      advertising or AdMob.
-    </p>
-
-
-    <h3>6. Analytics and tracking</h3>
-
-    <p>
-      The Google Play version of StudyGuard does not use
-      analytics SDKs or developer-operated behavioural tracking.
-    </p>
-
-    <p>
-      StudyGuard does not use your locally stored app content
-      to create advertising profiles.
-    </p>
-
-
-    <h3>7. Selling of data</h3>
-
-    <p>
-      StudyGuard does not sell your locally stored app content.
-    </p>
-
-
-    <h3>8. Android system functions</h3>
-
-    <p>
-      StudyGuard may use Android system functionality to provide
-      features such as:
-    </p>
-
-    <ul>
-      <li>local notifications and reminders,</li>
-      <li>home-screen widgets,</li>
-      <li>opening a calendar entry draft,</li>
-      <li>opening another application when you explicitly request it.</li>
-    </ul>
-
-    <p>
-      These actions may involve Android or another application
-      installed on your device.
-    </p>
-
-    <p>
-      External applications and Android system services may process
-      information independently under their own privacy policies.
-    </p>
-
-
-    <h3>9. Support communication</h3>
-
-    <p>
-      If you contact StudyGuard support by email, we receive the
-      information you voluntarily provide.
-    </p>
-
-    <p>
-      This may include your email address, your message,
-      screenshots or other attachments you choose to send.
-    </p>
-
-    <p>
-      This information is used only to respond to your request,
-      provide support, investigate reported problems or handle
-      necessary follow-up communication.
-    </p>
-
-    <p>
-      Support email communication is separate from the information
-      stored locally inside the StudyGuard app.
-    </p>
-
-
-    <h3>10. Data retention</h3>
-
-    <p>
-      Information stored locally in StudyGuard remains on your
-      device until you:
-    </p>
-
-    <ul>
-      <li>delete it inside StudyGuard,</li>
-      <li>clear StudyGuard's application storage through Android, or</li>
-      <li>uninstall the application.</li>
-    </ul>
-
-    <p>
-      Because StudyGuard does not provide a developer-operated
-      cloud backup or user account for this content, the developer
-      generally cannot remotely access, recover or delete information
-      that exists only on your device.
-    </p>
-
-
-    <h3>11. Support email retention</h3>
-
-    <p>
-      Support communications are retained only for as long as
-      reasonably necessary to respond to the request, investigate
-      technical issues and comply with applicable legal or security
-      obligations.
-    </p>
-
-
-    <h3>12. Data sharing</h3>
-
-    <p>
-      StudyGuard does not share locally stored StudyGuard content
-      with advertisers, data brokers or analytics providers.
-    </p>
-
-    <p>
-      Information may leave StudyGuard when you deliberately use a
-      feature that opens another app or external service, or when
-      you voluntarily send information to StudyGuard support.
-    </p>
-
-
-    <h3>13. Security</h3>
-
-    <p>
-      StudyGuard follows a local-first approach intended to reduce
-      unnecessary transmission of personal information.
-    </p>
-
-    <p>
-      The security of locally stored information also depends on
-      your Android device, operating-system security, screen lock,
-      device backups and other security settings.
-    </p>
-
-    <p>
-      Users should keep their Android device updated and appropriately
-      protected.
-    </p>
-
-
-    <h3>14. Privacy-policy website</h3>
-
-    <p>
-      This privacy policy is hosted using GitHub Pages.
-    </p>
-
-    <p>
-      StudyGuard does not add advertising or its own analytics
-      tracking to this privacy-policy page.
-    </p>
-
-    <p>
-      GitHub may process technical information necessary to deliver
-      this website according to GitHub's own privacy practices.
-    </p>
-
-    <p>
-      GitHub Privacy Statement:
-      <a
-        href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
-      >
-        GitHub General Privacy Statement
-      </a>
-    </p>
-
-
-    <h3>15. Changes to this Privacy Policy</h3>
-
-    <p>
-      This Privacy Policy may be updated when StudyGuard's features,
-      data practices or legal requirements change.
-    </p>
-
-    <p>
-      If a future StudyGuard version introduces additional data
-      collection, cloud services, analytics, advertising, accounts
-      or other relevant functionality, this Privacy Policy and the
-      Google Play Data safety declaration will be updated accordingly.
-    </p>
-
-
-    <h3>16. Contact</h3>
-
-    <p>
-      For questions about privacy or StudyGuard:
-    </p>
-
-    <p>
-      <strong>Hichem Abdenadher</strong><br>
-      <a href="mailto:hichemabdennadher5@gmail.com">
-        hichemabdennadher5@gmail.com
-      </a>
-    </p>
-
-  </section>
-
-
-  <!-- DEUTSCH -->
-
-  <section lang="de">
-
-    <h2>Deutsch</h2>
-
-    <h3>1. Verantwortlicher und Datenschutzkontakt</h3>
-
-    <p>
-      StudyGuard wird bereitgestellt von:
-    </p>
-
-    <p>
-      <strong>Hichem Abdenadher</strong><br>
-      App: StudyGuard<br>
-      Paketname: de.studyguard.app<br>
-      E-Mail:
-      <a href="mailto:hichemabdennadher5@gmail.com">
-        hichemabdennadher5@gmail.com
-      </a>
-    </p>
-
-
-    <h3>2. Was ist StudyGuard?</h3>
-
-    <p>
-      StudyGuard ist eine Android-App, die sich insbesondere an
-      internationale Studierende in Deutschland richtet.
-    </p>
-
-    <p>
-      Die App unterstützt bei der Organisation von Studium,
-      Aufgaben, Fristen, Prüfungen, Arbeitsplanung, Wohnung,
-      Budgetplanung, Karriereplanung, Erinnerungen und weiteren
-      Bereichen des studentischen Alltags.
-    </p>
-
-
-    <h3>3. In der App gespeicherte Informationen</h3>
-
-    <p>
-      Je nach Nutzung kannst du beispielsweise folgende Informationen
-      in StudyGuard eintragen:
-    </p>
-
-    <ul>
-      <li>Aufgaben und persönliche Notizen,</li>
-      <li>Fristen und Termine,</li>
-      <li>Modul- und Prüfungsinformationen,</li>
-      <li>Studienplanung,</li>
-      <li>Arbeitsplanung,</li>
-      <li>Wohnungs-Checklisten,</li>
-      <li>Budget- und Finanzplanungswerte,</li>
-      <li>Karriereplanung,</li>
-      <li>App-Einstellungen,</li>
-      <li>Erinnerungseinstellungen.</li>
-    </ul>
-
-    <p>
-      Diese Informationen werden zur Bereitstellung der
-      StudyGuard-Funktionen lokal auf deinem Android-Gerät gespeichert.
-    </p>
-
-    <p>
-      StudyGuard betreibt kein Entwickler-Cloud-Backend,
-      an das diese App-Inhalte übertragen werden.
-    </p>
-
-
-    <h3>4. Benutzerkonten</h3>
-
-    <p>
-      StudyGuard benötigt kein Benutzerkonto und keinen Login.
-    </p>
-
-
-    <h3>5. Werbung</h3>
-
-    <p>
-      Die Google-Play-Version von StudyGuard enthält keine Werbung
-      und kein AdMob.
-    </p>
-
-
-    <h3>6. Analytics und Tracking</h3>
-
-    <p>
-      Die Google-Play-Version von StudyGuard verwendet keine
-      Analytics-SDKs und kein vom Entwickler betriebenes
-      Verhaltens-Tracking.
-    </p>
-
-    <p>
-      Lokal gespeicherte Inhalte werden nicht zur Erstellung von
-      Werbeprofilen verwendet.
-    </p>
-
-
-    <h3>7. Verkauf von Daten</h3>
-
-    <p>
-      StudyGuard verkauft keine lokal gespeicherten App-Inhalte.
-    </p>
-
-
-    <h3>8. Android-Systemfunktionen</h3>
-
-    <p>
-      StudyGuard kann Android-Systemfunktionen verwenden, um
-      beispielsweise folgende Funktionen bereitzustellen:
-    </p>
-
-    <ul>
-      <li>lokale Benachrichtigungen und Erinnerungen,</li>
-      <li>Homescreen-Widgets,</li>
-      <li>Öffnen eines Kalenderentwurfs,</li>
-      <li>Öffnen einer anderen App auf ausdrücklichen Wunsch des Nutzers.</li>
-    </ul>
-
-    <p>
-      Android-Systemdienste oder andere Apps können dabei unabhängig
-      von StudyGuard Informationen entsprechend ihren eigenen
-      Datenschutzbestimmungen verarbeiten.
-    </p>
-
-
-    <h3>9. Support per E-Mail</h3>
-
-    <p>
-      Wenn du StudyGuard per E-Mail kontaktierst, erhalten wir die
-      Informationen, die du freiwillig übermittelst.
-    </p>
-
-    <p>
-      Dies können beispielsweise deine E-Mail-Adresse, deine Nachricht,
-      Screenshots oder andere von dir gesendete Anhänge sein.
-    </p>
-
-    <p>
-      Diese Informationen werden ausschließlich zur Bearbeitung deiner
-      Anfrage, für Support, zur Untersuchung gemeldeter Probleme und
-      für notwendige Rückfragen verwendet.
-    </p>
-
-
-    <h3>10. Speicherdauer und Löschung</h3>
-
-    <p>
-      Lokal gespeicherte StudyGuard-Inhalte bleiben auf deinem Gerät,
-      bis du:
-    </p>
-
-    <ul>
-      <li>sie innerhalb von StudyGuard löschst,</li>
-      <li>den App-Speicher über Android löschst oder</li>
-      <li>StudyGuard deinstallierst.</li>
-    </ul>
-
-    <p>
-      Da StudyGuard für diese Inhalte kein Benutzerkonto und kein
-      Entwickler-Cloud-Backup bereitstellt, kann der Entwickler
-      Informationen, die ausschließlich auf deinem Gerät gespeichert
-      sind, grundsätzlich nicht aus der Ferne abrufen,
-      wiederherstellen oder löschen.
-    </p>
-
-
-    <h3>11. Speicherdauer von Support-Kommunikation</h3>
-
-    <p>
-      Support-Kommunikation wird nur so lange gespeichert, wie dies
-      zur Bearbeitung der Anfrage, zur Untersuchung technischer
-      Probleme sowie zur Erfüllung gegebenenfalls bestehender
-      rechtlicher oder sicherheitsbezogener Pflichten erforderlich ist.
-    </p>
-
-
-    <h3>12. Weitergabe von Daten</h3>
-
-    <p>
-      Lokal gespeicherte StudyGuard-Inhalte werden nicht an
-      Werbeanbieter, Datenhändler oder Analytics-Anbieter weitergegeben.
-    </p>
-
-    <p>
-      Informationen können StudyGuard verlassen, wenn du bewusst
-      eine Funktion nutzt, die eine andere App oder einen externen
-      Dienst öffnet, oder wenn du freiwillig Informationen an den
-      StudyGuard-Support sendest.
-    </p>
-
-
-    <h3>13. Sicherheit</h3>
-
-    <p>
-      StudyGuard verfolgt einen Local-First-Ansatz, um unnötige
-      Datenübertragungen zu reduzieren.
-    </p>
-
-    <p>
-      Die Sicherheit lokal gespeicherter Informationen hängt auch
-      von deinem Android-Gerät, den Sicherheitsmechanismen des
-      Betriebssystems, der Displaysperre, Gerätesicherungen und
-      weiteren Geräteeinstellungen ab.
-    </p>
-
-
-    <h3>14. Diese Datenschutz-Webseite</h3>
-
-    <p>
-      Diese Datenschutzerklärung wird über GitHub Pages bereitgestellt.
-    </p>
-
-    <p>
-      StudyGuard bindet auf dieser Seite keine Werbung und keine
-      eigenen Analytics-Tracking-Skripte ein.
-    </p>
-
-    <p>
-      GitHub kann technische Daten verarbeiten, die zur Bereitstellung
-      dieser Webseite erforderlich sind.
-    </p>
-
-    <p>
-      Weitere Informationen:
-      <a
-        href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
-      >
-        GitHub Datenschutzerklärung
-      </a>
-    </p>
-
-
-    <h3>15. Änderungen dieser Datenschutzerklärung</h3>
-
-    <p>
-      Diese Datenschutzerklärung kann aktualisiert werden, wenn sich
-      Funktionen, Datenverarbeitungen oder rechtliche Anforderungen
-      von StudyGuard ändern.
-    </p>
-
-    <p>
-      Falls eine zukünftige Version neue Datenerhebung,
-      Cloud-Dienste, Benutzerkonten, Analytics, Werbung oder andere
-      relevante Funktionen einführt, werden diese Datenschutzerklärung
-      und die Datensicherheitsangaben bei Google Play entsprechend
-      angepasst.
-    </p>
-
-
-    <h3>16. Kontakt</h3>
-
-    <p>
-      Bei Fragen zum Datenschutz oder zu StudyGuard:
-    </p>
-
-    <p>
-      <strong>Hichem Abdenadher</strong><br>
-      <a href="mailto:hichemabdennadher5@gmail.com">
-        hichemabdennadher5@gmail.com
-      </a>
-    </p>
-
-  </section>
-
-</body>
-</html>
+  <a class="skip" href="#main">Skip to content / Zum Inhalt</a>
+  <header class="topbar"><div class="wrap">
+    <a class="brand" href="#main" aria-label="StudyGuard"><span class="mark" aria-hidden="true">✓</span>StudyGuard</a>
+    <nav class="languages" aria-label="Language / Sprache"><a href="#en" data-language="en">English</a><a href="#de" data-language="de">Deutsch</a></nav>
+  </div></header>
+  <main id="main" class="wrap">
+    <!-- Editorial status: do not remove until the address, legal bases and released build have been checked. -->
+    <section id="en" class="language-panel" lang="en" aria-labelledby="title-en">
+      <div class="hero"><div class="eyebrow">Your data. Explained.</div><h1 id="title-en">Your plans.<br><span>Your privacy.</span></h1>
+        <p class="intro">What stays on your device, when information leaves the app, and what is planned for advertising in StudyGuard.</p>
+        <div class="meta"><span class="pill">Privacy notice · review draft</span><span>Prepared <time datetime="2026-10-30">30 October 2026</time></span></div>
+      </div>
+      <div class="facts" aria-label="At a glance">
+        <div class="fact"><span class="number">01 / STORAGE</span><h2>Planning stays local</h2><p>Personal planning entries are encrypted on your Android device.</p></div>
+        <div class="fact"><span class="number">02 / ACCESS</span><h2>No StudyGuard account</h2><p>No login or developer cloud sync for your planning content.</p></div>
+        <div class="fact"><span class="number">03 / ADVERTISING</span><h2>An update in preparation</h2><p>AdMob is planned. It is not yet integrated into the inspected code.</p></div>
+      </div>
+      <aside class="notice" aria-label="Draft status"><strong>Review copy — not the final notice for an advertising release.</strong><p>This page describes the inspected 0.8.1 project and separately explains the planned AdMob update. The developer’s postal address and the final advertising setup still need to be completed. The inspection does not establish which version is currently distributed on Google Play.</p></aside>
+      <div class="layout">
+        <aside class="contents"><h2>On this page</h2><nav aria-label="English contents">
+          <a href="#en-contact"><span>01</span>Controller &amp; contact</a><a href="#en-local"><span>02</span>Local planning data</a><a href="#en-security"><span>03</span>Storage &amp; security</a><a href="#en-system"><span>04</span>Reminders &amp; widgets</a><a href="#en-external"><span>05</span>External services</a><a href="#en-ads"><span>06</span>Advertising update</a><a href="#en-support"><span>07</span>Email support</a><a href="#en-retention"><span>08</span>Retention &amp; deletion</a><a href="#en-rights"><span>09</span>Legal bases &amp; rights</a><a href="#en-website"><span>10</span>This website</a>
+        </nav><div class="contact">A privacy question?<br><a href="mailto:hichemabdennadher5@gmail.com">Email Hichem ↗</a></div></aside>
+        <div class="policy">
+          <section class="article" id="en-contact"><h2><span class="n">01</span>Controller &amp; contact</h2><address><strong>Hichem Abdenadher</strong><br>StudyGuard<br><a href="mailto:hichemabdennadher5@gmail.com">hichemabdennadher5@gmail.com</a></address><p class="small">Postal contact address: still to be supplied by the controller before this draft is finalised.</p><p>Android package: <code>de.studyguard.app</code>. StudyGuard helps international students in Germany organise study and everyday responsibilities.</p></section>
+          <section class="article" id="en-local"><h2><span class="n">02</span>Local planning data</h2><p>You choose what to enter. Depending on the features you use, this may include:</p><ul><li>Profile details such as name, avatar, country of origin, EU status, city, university and study phase.</li><li>Tasks, notes, deadlines, exams, study topics and preparation progress.</li><li>Work schedules and recorded hours, residence planning, budget values, housing checklists, applications and manual letter notes.</li><li>Language, appearance, onboarding, reminder and widget preferences.</li></ul><p>These entries support the organisation features you request. StudyGuard has no login or developer-operated cloud backend for your planning content. The inspected app does not send this content to an advertising or analytics provider, and the developer does not sell it.</p></section>
+          <section class="article" id="en-security"><h2><span class="n">03</span>Storage &amp; security</h2><p>Planning content is stored in a local AES-GCM encrypted file. Its key is managed in Android Keystore. App settings use private app storage; they are separate from the encrypted planning file.</p><p>Android backups are disabled for the app. StudyGuard offers no automatic cloud backup or recovery. Uninstalling the app or clearing its storage can permanently remove your local data. Encryption does not replace device updates and an appropriate screen lock.</p></section>
+          <section class="article" id="en-system"><h2><span class="n">04</span>Reminders &amp; widgets</h2><p>Reminders are optional. Where Android requires notification permission, the app requests it when reminders are enabled. Notifications use neutral wording without personal task titles. Android may delay or prevent delivery.</p><p>Widgets initially show neutral information. If you enable personal widget details, task titles and due information are passed to your Android launcher. Exam widgets also display time; work tasks may display planned hours. Free-form notes, exam locations and study topics are not passed to widgets.</p><p>You can disable widget details and remove widgets. StudyGuard updates widgets after changes, but your launcher may keep its own copies or previews.</p></section>
+          <section class="article" id="en-external"><h2><span class="n">05</span>External services &amp; links</h2><p>Calendar, email and sharing actions open drafts in other apps. You confirm sending or saving in the destination app. A calendar draft may enter a cloud calendar if you select one there.</p><p>The inspected app includes personal referral links and optional support links to PayPal and Buy Me a Coffee. After you choose and confirm an external link, the provider may process connection, referral, account or payment information under its own terms. StudyGuard appends no profile or task content to these URLs and implements no referral-click counter.</p><p>External copies, sent messages and payments are handled by the selected providers. Deleting StudyGuard data does not delete these external records.</p></section>
+          <section class="article" id="en-ads"><h2><span class="n">06</span>Advertising: current &amp; planned</h2><div class="inset"><p><strong>Current inspected code:</strong> no embedded advertising SDK, analytics SDK or Internet permission. Referral and support links described above are separate external services. This is not a blanket claim that the app contains no promotional content.</p></div><p><strong>Planned update:</strong> Google AdMob for occasional full-screen interstitials and optional rewarded ads. Creating ad units in AdMob alone does not activate them in the app.</p><p>Google documents IP addresses, app/ad interactions, diagnostics and device/account identifiers for its advertising SDK. An IP address may indicate approximate location. Data use and identifiers depend on configuration and choices. Purposes include ad delivery, measurement and fraud prevention. Non-personalised ads can still process personal data.</p><p>The intended integration will not pass your profile, task titles, notes, residence information or budget entries as ad-targeting parameters. A proposed rewarded offer gives one minute without automatic ad interruptions after confirmed completion; this does not specify the video’s duration.</p><p>The planned consent interface uses Google UMP, with consent, rejection and individual options where required. A privacy-options entry point is planned in app settings. These controls are <strong>not yet implemented in the inspected code</strong>; this page is not itself a consent form and cannot change in-app consent.</p><p class="source">Sources: <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google SDK data disclosure</a>, <a href="https://developers.google.com/admob/android/privacy">UMP documentation</a> and <a href="https://policies.google.com/technologies/partner-sites?hl=en">Google’s use of partner-app data</a>.</p><details><summary>What must be completed before the ad-supported release?</summary><ul><li>Actual SDK versions, permissions, advertising-ID and audience settings.</li><li>Participating advertising partners, contracting entities, roles, international transfers and applicable safeguards.</li><li>Consent-dependent legal bases, local storage access, retention and withdrawal/deletion behaviour.</li><li>Tested privacy controls and a matching Google Play Data safety declaration.</li></ul></details></section>
+          <section class="article" id="en-support"><h2><span class="n">07</span>Email support</h2><p>If you contact the address above, the developer receives your email address, message and attachments you choose to send. The purpose is to respond, investigate reported issues and follow up. The contact address uses Gmail, so Google is also involved in email delivery and storage.</p><p>Support messages are separate from your local app content. Please avoid sending identity documents, passport numbers or sensitive information that is unnecessary for your question.</p></section>
+          <section class="article" id="en-retention"><h2><span class="n">08</span>Retention &amp; deletion</h2><p>Local content remains until you delete it in StudyGuard, clear app storage or uninstall. The current “delete all local data” feature deletes the planning file, its key and app preferences. The developer cannot remotely recover content that exists only on your device.</p><p>Support messages are retained as needed to handle the request and applicable obligations. A concrete deletion schedule still needs to be documented before this draft is finalised. Information received by external services is subject to their retention practices and your rights with those providers.</p><p>The current deletion function has no AdMob/UMP data to clear. Its handling of advertising choices and reward state must be verified when those features are added.</p></section>
+          <section class="article" id="en-rights"><h2><span class="n">09</span>Legal bases &amp; your rights</h2><p>Requested app functionality and related support may rely on Article 6(1)(b) GDPR where necessary to provide the service. General support and security may rely on Article 6(1)(f), with the interest of answering enquiries and maintaining a reliable service. Applicable legal obligations may require processing under Article 6(1)(c). The controller must confirm which bases apply to the actual processes before finalising this draft.</p><p>For the planned advertising update, processing that requires consent must rely on a valid consent, including relevant requirements for accessing or storing information on a device. Rejection, withdrawal and the actual resulting ad behaviour must be documented against the implemented setup.</p><p>Subject to applicable conditions, you may request access, correction, deletion, restriction or portability, object to processing based on legitimate interests, and withdraw consent for the future. Withdrawal does not affect the lawfulness of earlier processing. You may complain to a data protection supervisory authority. Contact the controller using the email above.</p></section>
+          <section class="article" id="en-website"><h2><span class="n">10</span>This website &amp; changes</h2><p>The intended public host is GitHub Pages. GitHub may process technical connection information, including IP addresses, when delivering the page. Processing can involve countries outside the EEA; its privacy statement explains international transfers, safeguards and retention.</p><p>This HTML file includes no advertising, analytics, external fonts or external JavaScript. Its optional language switch runs locally without cookies or browser-storage persistence. Following a source link or an email link opens an external service.</p><p><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a> · <a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a></p><p>This notice will be revised when actual data practices change. The final notice must identify the versions it covers and its effective date; the preparation date above is not a claim that the planned advertising update has been released.</p></section>
+        </div>
+      </div>
+    </section>
+
+    <section id="de" class="language-panel" lang="de" aria-labelledby="title-de">
+      <div class="hero"><div class="eyebrow">Deine Daten. Verständlich erklärt.</div><h1 id="title-de">Deine Pläne.<br><span>Deine Privatsphäre.</span></h1><p class="intro">Was auf deinem Gerät bleibt, wann Daten die App verlassen und was sich mit der geplanten Werbung in StudyGuard ändern soll.</p><div class="meta"><span class="pill">Datenschutz · Entwurf zur Prüfung</span><span>Erstellt am <time datetime="2026-10-30">30. Oktober 2026</time></span></div></div>
+      <div class="facts" aria-label="Auf einen Blick"><div class="fact"><span class="number">01 / SPEICHERUNG</span><h2>Deine Planung bleibt lokal</h2><p>Persönliche Planungseinträge liegen verschlüsselt auf deinem Android-Gerät.</p></div><div class="fact"><span class="number">02 / ZUGANG</span><h2>Kein StudyGuard-Konto</h2><p>Kein Login und keine Entwickler-Cloud für deine Planungsinhalte.</p></div><div class="fact"><span class="number">03 / WERBUNG</span><h2>Ein Update in Vorbereitung</h2><p>AdMob ist geplant, im geprüften Code aber noch nicht eingebaut.</p></div></div>
+      <aside class="notice" aria-label="Entwurfsstatus"><strong>Prüffassung — noch keine finale Erklärung für eine Werbeversion.</strong><p>Diese Seite beschreibt das geprüfte Projekt 0.8.1 und erläutert die geplante AdMob-Erweiterung gesondert. Die Postanschrift des Verantwortlichen und das endgültige Werbe-Setup müssen noch ergänzt werden. Die Codeprüfung belegt nicht, welche Version aktuell über Google Play verteilt wird.</p></aside>
+      <div class="layout"><aside class="contents"><h2>Auf dieser Seite</h2><nav aria-label="Deutsches Inhaltsverzeichnis"><a href="#de-contact"><span>01</span>Verantwortlicher &amp; Kontakt</a><a href="#de-local"><span>02</span>Lokale Planungsdaten</a><a href="#de-security"><span>03</span>Speicherung &amp; Sicherheit</a><a href="#de-system"><span>04</span>Erinnerungen &amp; Widgets</a><a href="#de-external"><span>05</span>Externe Dienste</a><a href="#de-ads"><span>06</span>Geplante Werbung</a><a href="#de-support"><span>07</span>Support per E-Mail</a><a href="#de-retention"><span>08</span>Speicherdauer &amp; Löschung</a><a href="#de-rights"><span>09</span>Rechtsgrundlagen &amp; Rechte</a><a href="#de-website"><span>10</span>Diese Website</a></nav><div class="contact">Eine Frage zum Datenschutz?<br><a href="mailto:hichemabdennadher5@gmail.com">E-Mail an Hichem ↗</a></div></aside>
+        <div class="policy">
+          <section class="article" id="de-contact"><h2><span class="n">01</span>Verantwortlicher &amp; Kontakt</h2><address><strong>Hichem Abdenadher</strong><br>StudyGuard<br><a href="mailto:hichemabdennadher5@gmail.com">hichemabdennadher5@gmail.com</a></address><p class="small">Postalische Kontaktanschrift: vom Verantwortlichen vor Abschluss dieses Entwurfs noch zu ergänzen.</p><p>Android-Paket: <code>de.studyguard.app</code>. StudyGuard hilft internationalen Studierenden in Deutschland bei der Organisation von Studium und Alltag.</p></section>
+          <section class="article" id="de-local"><h2><span class="n">02</span>Lokale Planungsdaten</h2><p>Du entscheidest, was du einträgst. Je nach verwendeter Funktion können dazu gehören:</p><ul><li>Profilangaben wie Name, Avatar, Herkunftsland, EU-Status, Stadt, Hochschule und Studienphase.</li><li>Aufgaben, Notizen, Fristen, Klausuren, Lernthemen und Vorbereitungsfortschritt.</li><li>Arbeitspläne und erfasste Stunden, Aufenthaltsplanung, Budgetwerte, Wohnungschecklisten, Bewerbungen und manuelle Briefnotizen.</li><li>Sprache, Design, Onboarding-, Erinnerungs- und Widget-Einstellungen.</li></ul><p>Diese Angaben dienen den von dir angeforderten Organisationsfunktionen. Für deine Planungsinhalte gibt es keinen StudyGuard-Login und keinen Entwickler-Cloudserver. Die geprüfte App übermittelt diese Inhalte nicht an Werbe- oder Analyseanbieter; der Entwickler verkauft sie nicht.</p></section>
+          <section class="article" id="de-security"><h2><span class="n">03</span>Speicherung &amp; Sicherheit</h2><p>Planungsinhalte werden in einer lokalen AES-GCM-verschlüsselten Datei gespeichert. Der Schlüssel liegt im Android Keystore. Einstellungen liegen im privaten App-Speicher, getrennt von der verschlüsselten Planungsdatei.</p><p>Android-Backups sind für die App deaktiviert. StudyGuard bietet keine automatische Cloudsicherung oder Wiederherstellung. Durch Deinstallation oder Leeren des App-Speichers können lokale Daten dauerhaft verloren gehen. Verschlüsselung ersetzt keine Geräteupdates und keine geeignete Displaysperre.</p></section>
+          <section class="article" id="de-system"><h2><span class="n">04</span>Erinnerungen &amp; Widgets</h2><p>Erinnerungen sind optional. Wenn Android eine Benachrichtigungsberechtigung verlangt, wird sie bei der Aktivierung angefragt. Benachrichtigungen enthalten neutrale Hinweise ohne persönliche Aufgabentitel. Android kann die Zustellung verzögern oder verhindern.</p><p>Widgets zeigen zunächst neutrale Informationen. Wenn du persönliche Details aktivierst, werden Aufgabentitel und Fälligkeiten an deinen Android-Launcher übergeben. Klausur-Widgets zeigen zusätzlich Uhrzeiten; Arbeitsaufgaben gegebenenfalls geplante Stunden. Freie Notizen, Klausurorte und Lernthemen werden nicht an Widgets übergeben.</p><p>Du kannst die Detailanzeige ausschalten und Widgets entfernen. StudyGuard aktualisiert Widgets nach Änderungen; dein Launcher kann jedoch eigene Kopien oder Vorschauen behalten.</p></section>
+          <section class="article" id="de-external"><h2><span class="n">05</span>Externe Dienste &amp; Links</h2><p>Kalender-, E-Mail- und Teilen-Aktionen öffnen Entwürfe in anderen Apps. Das Senden oder Speichern bestätigst du dort. Ein Kalenderentwurf kann in einem Cloud-Kalender landen, wenn du diesen auswählst.</p><p>Die geprüfte App enthält persönliche Empfehlungslinks und freiwillige Unterstützungslinks zu PayPal und Buy Me a Coffee. Nach deiner Auswahl und Bestätigung eines externen Links kann der Anbieter Verbindungs-, Empfehlungs-, Konto- oder Zahlungsdaten nach seinen eigenen Bedingungen verarbeiten. StudyGuard hängt keine Profil- oder Aufgabeninhalte an diese URLs an und führt keinen Zähler für Empfehlungsklicks.</p><p>Externe Kopien, gesendete Nachrichten und Zahlungen werden von den gewählten Anbietern verarbeitet. Das Löschen in StudyGuard entfernt diese externen Datensätze nicht.</p></section>
+          <section class="article" id="de-ads"><h2><span class="n">06</span>Werbung: heute &amp; geplant</h2><div class="inset"><p><strong>Aktuell geprüfter Code:</strong> kein eingebautes Werbe-SDK, kein Analyse-SDK und keine Internet-Berechtigung. Die beschriebenen Empfehlungs- und Unterstützungslinks führen zu externen Diensten. Daraus folgt keine pauschale Aussage, die App enthalte keinerlei werbliche Inhalte.</p></div><p><strong>Geplantes Update:</strong> Google AdMob für gelegentliche Vollbildanzeigen und freiwillige Anzeigen mit Prämie. Das Erstellen von Anzeigenblöcken in AdMob aktiviert diese noch nicht in der App.</p><p>Google nennt für sein Werbe-SDK IP-Adressen, App-/Anzeigeninteraktionen, Diagnosedaten sowie Geräte-/Kontokennungen. Eine IP-Adresse kann den ungefähren Standort erkennen lassen. Datenverwendung und Kennungen hängen von Konfiguration und Auswahl ab. Zwecke umfassen Werbeauslieferung, Messung und Betrugsschutz. Nicht personalisierte Werbung kann ebenfalls personenbezogene Daten verarbeiten.</p><p>Die vorgesehene Integration soll Profilangaben, Aufgabentitel, Notizen, Aufenthaltsangaben und Budgeteinträge nicht als Werbe-Targeting übergeben. Ein geplantes freiwilliges Videoangebot gewährt nach bestätigtem Abschluss eine Minute ohne automatische Werbeunterbrechungen; das legt die Videolänge nicht fest.</p><p>Für die geplante Einwilligungsoberfläche wird Google UMP vorgesehen: soweit erforderlich mit Zustimmung, Ablehnung und einzelnen Optionen. Ein Einstieg zu den Werbe-Datenschutzoptionen ist in den Einstellungen geplant. Diese Funktionen sind <strong>im geprüften Code noch nicht umgesetzt</strong>. Diese Website ist selbst kein Einwilligungsdialog und kann die Auswahl in der App nicht ändern.</p><p class="source">Quellen: <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Googles SDK-Datenoffenlegung</a>, <a href="https://developers.google.com/admob/android/privacy">UMP-Dokumentation</a> und <a href="https://policies.google.com/technologies/partner-sites?hl=de">Googles Datenverwendung bei Partner-Apps</a>.</p><details><summary>Was muss vor der Werbeveröffentlichung fertig sein?</summary><ul><li>Tatsächliche SDK-Versionen, Berechtigungen, Werbe-ID- und Zielgruppeneinstellungen.</li><li>Beteiligte Werbepartner, Vertragsgesellschaften, Rollen, internationale Übermittlungen und anwendbare Garantien.</li><li>Einwilligungsabhängige Rechtsgrundlagen, Gerätezugriffe, Speicherfristen und Widerrufs-/Löschverhalten.</li><li>Geprüfte Datenschutzoptionen und dazu passende Google-Play-Datensicherheitsangaben.</li></ul></details></section>
+          <section class="article" id="de-support"><h2><span class="n">07</span>Support per E-Mail</h2><p>Wenn du den Kontakt oben anschreibst, erhält der Entwickler deine E-Mail-Adresse, Nachricht und freiwillig gesendete Anhänge. Sie dienen der Beantwortung, der Untersuchung gemeldeter Probleme und notwendigen Rückfragen. Die Kontaktadresse verwendet Gmail; Google ist daher an Zustellung und Speicherung beteiligt.</p><p>Supportnachrichten sind von deinen lokalen App-Inhalten getrennt. Sende möglichst keine Ausweisdokumente, Passnummern oder vertraulichen Angaben, die für deine Frage nicht erforderlich sind.</p></section>
+          <section class="article" id="de-retention"><h2><span class="n">08</span>Speicherdauer &amp; Löschung</h2><p>Lokale Inhalte bleiben gespeichert, bis du sie in StudyGuard löschst, den App-Speicher leerst oder die App deinstallierst. „Alle lokalen Daten löschen“ entfernt derzeit die Planungsdatei, ihren Schlüssel und die App-Einstellungen. Der Entwickler kann ausschließlich lokal vorhandene Inhalte nicht aus der Ferne wiederherstellen.</p><p>Supportnachrichten werden so lange aufbewahrt, wie es zur Bearbeitung und für anwendbare Pflichten erforderlich ist. Ein konkreter Löschplan muss vor Abschluss dieses Entwurfs noch dokumentiert werden. Für Daten bei externen Diensten gelten deren Speicherpraxis und deine Rechte gegenüber diesen Anbietern.</p><p>Die aktuelle Löschfunktion hat noch keine AdMob-/UMP-Daten zu entfernen. Ihr Umgang mit Werbeauswahl und Prämienstatus muss beim Einbau dieser Funktionen geprüft werden.</p></section>
+          <section class="article" id="de-rights"><h2><span class="n">09</span>Rechtsgrundlagen &amp; deine Rechte</h2><p>Angeforderte App-Funktionen und zugehöriger Support können auf Art. 6 Abs. 1 lit. b DSGVO beruhen, soweit dies für die Leistung erforderlich ist. Allgemeiner Support und Sicherheit können auf Art. 6 Abs. 1 lit. f mit dem Interesse beruhen, Anfragen zu beantworten und einen zuverlässigen Dienst zu betreiben. Gesetzliche Pflichten können eine Verarbeitung nach Art. 6 Abs. 1 lit. c erfordern. Der Verantwortliche muss die zutreffenden Grundlagen vor Abschluss dieses Entwurfs am tatsächlichen Ablauf bestätigen.</p><p>Beim geplanten Werbe-Update müssen einwilligungsbedürftige Verarbeitungen auf einer gültigen Einwilligung beruhen; dies umfasst auch einschlägige Anforderungen an Speicherung oder Zugriff auf dem Endgerät. Ablehnung, Widerruf und die tatsächlichen Folgen für Werbung sind am umgesetzten Setup zu dokumentieren.</p><p>Soweit die gesetzlichen Voraussetzungen erfüllt sind, hast du Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung und Datenübertragbarkeit. Du kannst einer Verarbeitung aufgrund berechtigter Interessen widersprechen und eine Einwilligung für die Zukunft widerrufen. Die Rechtmäßigkeit früherer Verarbeitung bleibt unberührt. Du kannst dich bei einer Datenschutzaufsichtsbehörde beschweren. Nutze für Anfragen die Kontaktadresse oben.</p></section>
+          <section class="article" id="de-website"><h2><span class="n">10</span>Diese Website &amp; Änderungen</h2><p>Als öffentliche Bereitstellung ist GitHub Pages vorgesehen. GitHub kann beim Abruf technische Verbindungsdaten einschließlich IP-Adressen verarbeiten. Dabei können Länder außerhalb des EWR beteiligt sein; GitHubs Datenschutzerklärung erläutert internationale Übermittlungen, Garantien und Speicherdauer.</p><p>Diese HTML-Datei bindet keine Werbung, Analyse, externen Schriftarten oder externen JavaScript-Dateien ein. Der optionale Sprachwechsel läuft lokal ohne Cookies und ohne dauerhafte Speicherung im Browser. Quellen- und E-Mail-Links öffnen externe Dienste.</p><p><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub-Datenschutzerklärung</a> · <a href="https://policies.google.com/privacy?hl=de">Google-Datenschutzerklärung</a></p><p>Bei Änderungen der tatsächlichen Verarbeitung wird diese Erklärung überarbeitet. Die finale Fassung muss die betroffenen Versionen und ihren Geltungsbeginn nennen. Das Erstellungsdatum oben behauptet keine bereits erfolgte Veröffentlichung der geplanten Werbeversion.</p></section>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="wrap"><span>StudyGuard · Hichem Abdenadher</span><a href="#main">Back to top / Nach oben ↑</a></div></footer>
+  <script>
+    // Progressive enhancement: both translations remain readable if JavaScript is disabled.
+    (() => {
+      const panels = [...document.querySelectorAll('.language-panel')];
+      const links = [...document.querySelectorAll('[data-language]')];
+      function showLanguage(language) {
+        panels.forEach(panel => { panel.hidden = panel.lang !== language; });
+        links.forEach(link => {
