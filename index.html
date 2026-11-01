@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
   <meta content="light dark" name="color-scheme"/>
-  <meta content="StudyGuard privacy information in English and German: local planning, advertising in test versions, privacy choices and external services." name="description"/>
+  <meta content="StudyGuard privacy information in English and German: local planning, advertising in Play version 0.9.0, privacy choices and external services." name="description"/>
   <title>
    Privacy &amp; your data · StudyGuard
   </title>
@@ -396,10 +396,10 @@ a{color:#000}
        03 / ADVERTISING
       </span>
       <h2>
-       Advertising in test builds
+       Advertising in Play version 0.9.0
       </h2>
       <p>
-       AdMob and Google privacy choices are integrated into the current Play test build.
+       Play version 0.9.0 includes AdMob and Google privacy choices. Earlier versions may differ.
       </p>
      </div>
     </div>
@@ -408,7 +408,7 @@ a{color:#000}
       Which version does this page describe?
      </strong>
      <p>
-      This notice describes StudyGuard’s local planning features and the current ad-supported Play test build. Earlier builds without advertising SDKs do not make the ad requests described below. Advertising in a test build does not mean that an advertising update has already been released on Google Play.
+      This notice describes StudyGuard’s local planning features and the ad-supported Play version 0.9.0. Earlier builds without advertising SDKs do not make the ad requests described below. For availability, check the version distributed through Google Play; this notice also describes the prepared 0.9.0 release.
      </p>
     </aside>
     <div class="layout">
@@ -556,7 +556,7 @@ a{color:#000}
         Planning content is stored in a local AES-GCM encrypted file. Its key is managed in Android Keystore. App settings use private app storage; they are separate from the encrypted planning file.
        </p>
        <p>
-        Android backups are disabled for the app. StudyGuard offers no automatic cloud backup or recovery. Uninstalling the app or clearing its storage can permanently remove your local data. Encryption does not replace device updates and an appropriate screen lock.
+        Android backups are disabled for the app. StudyGuard offers no automatic cloud backup or developer-operated cloud recovery. Uninstalling the app or clearing its storage can permanently remove your local data. Encryption does not replace device updates and an appropriate screen lock.</p><p>Version 0.9.0 additionally offers manual password-encrypted export and import. Backups include all planning entries, including budget categories, expenses and applications. They use AES-GCM with a password-derived key (PBKDF2-HMAC-SHA256), independently of the device key. You choose the storage location through the system file picker; the selected provider may store the encrypted file, including in a cloud location you choose. StudyGuard does not automatically synchronise it. Keep the password separately: the developer cannot recover it. Restoring first checks the file and then replaces current planning entries only after confirmation. Google consent is not exported; reminders are disabled after restoration. Exported backup files are not deleted when you clear or uninstall StudyGuard; delete them separately.
        </p>
       </section>
       <section class="article" id="en-system">
@@ -601,7 +601,7 @@ a{color:#000}
         Advertising &amp; privacy choices
        </h2>
        <p>
-        The current ad-supported Play test build uses Google AdMob for occasional full-screen ads and optional rewarded videos. Other builds without these SDKs do not send AdMob requests.
+        The ad-supported Play version 0.9.0 uses Google AdMob for occasional full-screen ads and optional rewarded videos. Other builds without these SDKs do not send AdMob requests.
        </p>
        <p>
         Google documents IP addresses, app/ad interactions, diagnostics and device/account identifiers for its advertising SDK. An IP address may indicate approximate location. Data use and identifiers depend on configuration and choices. Purposes include ad delivery, measurement and fraud prevention. Non-personalised ads can still process personal data.
@@ -616,7 +616,7 @@ a{color:#000}
         Google’s User Messaging Platform (UMP) checks whether a privacy message is required. Where applicable, you can consent, decline or manage individual options. Required advertising privacy options are available in the app’s Settings and Privacy screens so you can review or change your choice. This website itself does not set in-app consent.
        </p>
        <p>
-        Planning remains available if you decline. Declining consent is not a promise that every type of ad disappears: ad requests depend on the current privacy-platform response and the applicable configuration. If the consent check fails in the current test build, ads remain disabled until a successful check.
+        Planning remains available if you decline. Declining consent is not a promise that every type of ad disappears: ad requests depend on the current privacy-platform response and the applicable configuration. If the consent check fails in this version, ads remain disabled until a successful check.
        </p>
        <h3>
         Optional videos and local settings
@@ -715,7 +715,7 @@ a{color:#000}
         </a>
        </p>
        <p>
-        This notice is updated when actual data practices change. A future advertising release will be checked against its actual SDK configuration and reflected here. Older versions without advertising SDKs remain distinct from the current test build described above.
+        This notice is updated when actual data practices change. This notice distinguishes Play version 0.9.0 from older versions without advertising SDKs. Future changes will be reflected here.
        </p>
       </section>
      </div>
@@ -776,10 +776,10 @@ a{color:#000}
        03 / WERBUNG
       </span>
       <h2>
-       Werbung in Testversionen
+       Werbung in Play-Version 0.9.0
       </h2>
       <p>
-       AdMob und Googles Datenschutzoptionen sind im aktuellen Play-Testbuild eingebaut.
+       Play-Version 0.9.0 enthält AdMob und Googles Datenschutzoptionen. Frühere Versionen können abweichen.
       </p>
      </div>
     </div>
@@ -788,7 +788,7 @@ a{color:#000}
       Welche Version beschreibt diese Seite?
      </strong>
      <p>
-      Diese Erklärung beschreibt die lokale Planung und den aktuellen werbefinanzierten Play-Testbuild von StudyGuard. Frühere Fassungen ohne Werbe-SDK stellen die unten beschriebenen Anzeigenanfragen nicht. Die Werbung im Testbuild bedeutet nicht, dass bereits ein Werbe-Update bei Google Play veröffentlicht wurde.
+      Diese Erklärung beschreibt die lokale Planung und die werbefinanzierte Play-Version 0.9.0 von StudyGuard. Frühere Fassungen ohne Werbe-SDK stellen die unten beschriebenen Anzeigenanfragen nicht. Welche Version verfügbar ist, zeigt der Eintrag bei Google Play. Diese Erklärung beschreibt auch die vorbereitete Veröffentlichung 0.9.0.
      </p>
     </aside>
     <div class="layout">
@@ -936,7 +936,7 @@ a{color:#000}
         Planungsinhalte werden in einer lokalen AES-GCM-verschlüsselten Datei gespeichert. Der Schlüssel liegt im Android Keystore. Einstellungen liegen im privaten App-Speicher, getrennt von der verschlüsselten Planungsdatei.
        </p>
        <p>
-        Android-Backups sind für die App deaktiviert. StudyGuard bietet keine automatische Cloudsicherung oder Wiederherstellung. Durch Deinstallation oder Leeren des App-Speichers können lokale Daten dauerhaft verloren gehen. Verschlüsselung ersetzt keine Geräteupdates und keine geeignete Displaysperre.
+        Android-Backups sind für die App deaktiviert. StudyGuard bietet keine automatische Cloudsicherung und keine Wiederherstellung über einen Entwickler-Cloudserver. Durch Deinstallation oder Leeren des App-Speichers können lokale Daten dauerhaft verloren gehen. Verschlüsselung ersetzt keine Geräteupdates und keine geeignete Displaysperre.</p><p>Version 0.9.0 bietet zusätzlich manuellen passwortverschlüsselten Export und Import. Sicherungen enthalten alle Planungseinträge einschließlich Budgetkategorien, Ausgaben und Bewerbungen. Sie nutzen AES-GCM mit einem aus dem Passwort abgeleiteten Schlüssel (PBKDF2-HMAC-SHA256), unabhängig vom Geräteschlüssel. Du wählst den Speicherort über die System-Dateiauswahl. Der gewählte Anbieter kann die verschlüsselte Datei speichern, auch an einem von dir ausgewählten Cloud-Speicherort. StudyGuard synchronisiert sie nicht automatisch. Bewahre das Passwort getrennt auf; der Entwickler kann es nicht wiederherstellen. Beim Import wird die Datei erst geprüft. Erst nach Bestätigung werden aktuelle Planungseinträge ersetzt. Google-Einwilligungen werden nicht exportiert; Erinnerungen werden nach Wiederherstellung ausgeschaltet. Exportierte Dateien bleiben beim Leeren oder Deinstallieren der App erhalten und müssen separat gelöscht werden.
        </p>
       </section>
       <section class="article" id="de-system">
@@ -981,7 +981,7 @@ a{color:#000}
         Werbung &amp; Datenschutzoptionen
        </h2>
        <p>
-        Der aktuelle werbefinanzierte Play-Testbuild verwendet Google AdMob für gelegentliche Vollbildanzeigen und freiwillige Videos mit Prämie. Andere Fassungen ohne diese SDKs senden keine AdMob-Anfragen.
+        Die werbefinanzierte Play-Version 0.9.0 verwendet Google AdMob für gelegentliche Vollbildanzeigen und freiwillige Videos mit Prämie. Andere Fassungen ohne diese SDKs senden keine AdMob-Anfragen.
        </p>
        <p>
         Google nennt für sein Werbe-SDK IP-Adressen, App-/Anzeigeninteraktionen, Diagnosedaten sowie Geräte-/Kontokennungen. Eine IP-Adresse kann den ungefähren Standort erkennen lassen. Datenverwendung und Kennungen hängen von Konfiguration und Auswahl ab. Zwecke umfassen Werbeauslieferung, Messung und Betrugsschutz. Nicht personalisierte Werbung kann ebenfalls personenbezogene Daten verarbeiten.
@@ -996,7 +996,7 @@ a{color:#000}
         Googles User Messaging Platform (UMP) prüft, ob eine Datenschutzmitteilung erforderlich ist. Soweit zutreffend kannst du einwilligen, ablehnen oder einzelne Optionen verwalten. Erforderliche Werbe-Datenschutzoptionen sind in den Einstellungen und im Datenschutzbereich der App erreichbar, damit du deine Auswahl erneut aufrufen oder ändern kannst. Diese Website setzt selbst keine Einwilligung in der App.
        </p>
        <p>
-        Die Planung bleibt auch bei Ablehnung verfügbar. Eine Ablehnung verspricht nicht, dass jede Form von Werbung entfällt: Anzeigenanfragen richten sich nach der aktuellen Auskunft der Datenschutzplattform und der zutreffenden Konfiguration. Scheitert die Einwilligungsprüfung im aktuellen Testbuild, bleiben Anzeigen bis zu einer erfolgreichen Prüfung deaktiviert.
+        Die Planung bleibt auch bei Ablehnung verfügbar. Eine Ablehnung verspricht nicht, dass jede Form von Werbung entfällt: Anzeigenanfragen richten sich nach der aktuellen Auskunft der Datenschutzplattform und der zutreffenden Konfiguration. Scheitert die Einwilligungsprüfung in dieser Version, bleiben Anzeigen bis zu einer erfolgreichen Prüfung deaktiviert.
        </p>
        <h3>
         Freiwillige Videos und lokale Einstellungen
@@ -1095,7 +1095,7 @@ a{color:#000}
         </a>
        </p>
        <p>
-        Bei Änderungen der tatsächlichen Datenverarbeitung wird diese Erklärung aktualisiert. Eine spätere Werbeveröffentlichung wird mit ihrer tatsächlichen SDK-Konfiguration abgeglichen und hier berücksichtigt. Frühere Fassungen ohne Werbe-SDK bleiben vom oben beschriebenen aktuellen Testbuild zu unterscheiden.
+        Bei Änderungen der tatsächlichen Datenverarbeitung wird diese Erklärung aktualisiert. Diese Erklärung unterscheidet Play-Version 0.9.0 von früheren Fassungen ohne Werbe-SDK. Weitere Änderungen werden hier berücksichtigt.
        </p>
       </section>
      </div>
